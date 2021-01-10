@@ -1,0 +1,113 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(48, 48, 48); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    font-family: monospace;
+}
+button {
+    text-align: center;
+    border-radius: 40px;
+    border-color:rgb(255, 255, 255);
+    padding: 40px;
+    padding-left: 200px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#question-field{
+    text-align: center;
+    
+    border-style: groove;
+    border-width: 1px;
+    padding: 150px;
+    font-family: monospace;
+    font-size: 25px;
+}
+input {
+    width: 35%;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border-color:rgb(255, 255, 255);
+}
+  
+.question{
+    text-align: center;
+
+    width: 400px;
+    font-family: monospace;
+}
+.correct{
+    text-align: center;
+
+    width: 50px;
+    font-family: monospace;
+}
+#title{
+    text-align: center;
+    font-family: monospace;
+}
+#quizTitle{
+    text-align: center;
+    padding-left: 500px;
+    font-family: monospace;
+}

@@ -1,0 +1,104 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #cacaca
+    }
+
+    30% {
+        background-color: #dadada
+    }
+
+    60% {
+        background-color: #c3c3c3
+    }
+
+    90% {
+        background-color: #b3b3b3
+    }
+
+    100% {
+        background-color: #afafaf
+    }
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(160, 160, 160); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b1b1b1;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+#title{
+    color: rgb(137, 136, 182);
+    text-align: center;
+    font-size: 80px;
+    font-family: monospace;
+}
+#subtitle{
+    color: rgb(75, 75, 75);
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+#link{
+    color: rgb(42, 42, 42);
+    text-align: right;
+}
+#game-list{
+    text-align: center;
+}
+
+#back{
+    color: rgb(95, 95, 95);
+    font-family: monospace;
+    font-size: 50px;
+    text-align: right;
+    padding-left:200px;
+}
+
+#gameButton{
+    background-color:rgba(0, 162, 255, 0.486);
+    color: rgb(105, 105, 105);
+    border-radius: 40px;
+    border-color:rgb(255, 255, 255);
+    font-family: monospace;
+    font-size:100px;
+}
+#gameButton:hover{
+    cursor: pointer;
+}

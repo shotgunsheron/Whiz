@@ -1,0 +1,165 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #585858
+    }
+
+    30% {
+        background-color: #222222
+    }
+
+    60% {
+        background-color: rgb(53, 53, 53)
+    }
+
+    90% {
+        background-color: rgb(71, 71, 71)
+    }
+
+    100% {
+        background-color: #585858
+    }
+}
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+#answer1{
+    background-color: #c04747;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: monospace;
+    font-size: 20px;
+}
+a {
+    font-family: monospace;
+    font-size: 40px;
+    color:rgb(142, 173, 246);
+}
+#answer2{
+    background-color: #0096ec;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: monospace;
+    font-size: 20px;
+}
+#answer3{
+    background-color: #f5dd02;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: monospace;
+    font-size: 20px;
+}
+#answer4{
+    background-color: #26ff00;
+    margin: auto;
+    padding: 30px 20px;
+    height: 50%;
+    font-family: monospace;
+    font-size: 20px;
+}
+.square{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 70px;
+    height: 0px;
+    font-size: 20px;
+}
+
+#square1{
+    background-color: #af4c4c;
+}
+#square2{
+    background-color: #1e96f9;
+}
+#square3{
+    background-color: #f1ff33;
+}
+#square4{
+    background-color: #44ff33;
+}
+
+#nextQButton{
+    display: none;
+}
+#question{
+    font-family: monospace;
+    font-size: 50px;
+    color: rgb(142, 173, 246);
+
+}
+#timerText{
+    font-family: monospace;
+    color: white;
+}
+#num{
+    font-family: monospace;
+    font-size: 35px;
+    color: white;
+
+}
+#playersAnswered{
+    font-family: monospace;
+    color: white;
+
+}
+#questionNum{
+    font-family: monospace;
+    color: white;
+
+}
+
+#winner1{
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    color: white;
+
+}
+#winner2{
+    font-family: monospace;
+    text-align: center;
+    font-size: 22px;
+    display: none;
+    color: white;
+
+}
+#winner3{
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+    color: white;
+
+}
+#winner4{
+    font-family: monospace;
+    text-align: center;
+    display: none;
+    color: white;
+
+}
+#winner5{
+    font-family: monospace;
+    text-align: center;
+    display: none;
+    color: white;
+
+}
+#winnerTitle{
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    color: #3399ff;
+    display: none;
+}
